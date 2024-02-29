@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    width: 50%;
+    margin: 50px auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: black;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: greenyellow;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: greenyellow;
+}
